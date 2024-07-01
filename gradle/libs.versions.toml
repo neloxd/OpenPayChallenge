@@ -1,0 +1,99 @@
+[versions]
+biometricKtx = "1.2.0-alpha05"
+constraintlayout = "2.1.4"
+firebaseBom = "33.1.1"
+firebaseDatabaseKtx = "latest_version"
+glide = "4.16.0"
+hiltWork = "1.2.0"
+lifecycleViewmodelKtx = "2.8.2"
+navigationVersion = "2.7.7"
+org-jetbrains-kotlin-android = "1.9.0"
+androidDaggerHiltVersion = "2.48"
+androidxDaggerHiltVersion = "1.2.0"
+core-ktx = "1.13.1"
+agp = "8.5.0"
+gms = "4.4.2"
+kotlin = "1.9.0"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+epoxy = "5.1.4"
+appcompat = "1.7.0"
+chuckInterceptor = "4.0.0"
+material = "1.12.0"
+retrofitVersion = "2.9.0"
+httpOkVersion = "4.12.0"
+roomRxjava2 = "2.6.1"
+timberVersion = "5.0.1"
+swiperefreshlayout = "1.1.0"
+circleimageview = "3.1.0"
+materialshowcase = "1.3.7"
+googleplaycore = "1.10.3"
+googleplayLocation = "21.3.0"
+googleplayMaps = "19.0.0"
+mapsandroid = '3.6.0'
+legacy-support-v4 = "1.0.0"
+lifecycle-livedata-ktx = "2.8.2"
+activity = "1.9.0"
+splash-screen = "1.0.1"
+lottie = "6.3.0"
+workRuntimeKtx = "2.9.0"
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "hiltWork" }
+androidx-hilt-work = { module = "androidx.hilt:hilt-work", version.ref = "hiltWork" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRxjava2" }
+androidx-room-rxjava2 = { module = "androidx.room:room-rxjava2", version.ref = "roomRxjava2" }
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "splash-screen" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-database-ktx = { module = "com.google.firebase:firebase-database-ktx", version.ref = "firebaseDatabaseKtx" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+googleplaycore = { module = "com.google.android.play:core", version.ref = "googleplaycore" }
+materialshowcase = { module = "com.github.deano2390:MaterialShowcaseView", version.ref = "materialshowcase" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx_navigation_safe_args = { group = "androidx.navigation", name = "navigation-safe-args-gradle-plugin", version.ref = "navigationVersion" }
+androidx_navigation_fragment = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationVersion" }
+androidx_navigation_ui = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationVersion" }
+androidx_navigation_testing = { group = "androidx.navigation", name = "navigation-testing", version.ref = "navigationVersion" }
+android_dagger_hilt_gradle = { group = "com.google.dagger", name = "hilt-android-gradle-plugin", version.ref = "androidDaggerHiltVersion" }
+android_dagger_hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "androidDaggerHiltVersion" }
+android_dagger_hilt_compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "androidDaggerHiltVersion" }
+androidx_dagger_hilt_navigation_fragment = { group = "androidx.hilt", name = "hilt-navigation-fragment", version.ref = "androidxDaggerHiltVersion" }
+androidx_biometric = { module = "androidx.biometric:biometric-ktx", version.ref = "biometricKtx" }
+circle-imageview = { group = "de.hdodenhof", name = "circleimageview", version.ref = "circleimageview" }
+chuckInterceptorDebug = { group = "com.github.chuckerteam.chucker", name = "library", version.ref = "chuckInterceptor" }
+chuckInterceptorDelease = { group = "com.github.chuckerteam.chucker", name = "library-no-op", version.ref = "chuckInterceptor" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+epoxy = { group = "com.airbnb.android", name = "epoxy", version.ref = "epoxy" }
+epoxyProcessor = { group = "com.airbnb.android", name = "epoxy-processor", version.ref = "epoxy" }
+gms-play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "googleplayLocation" }
+gms-play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "googleplayMaps" }
+maps-android = { group = "com.google.maps.android", name = "android-maps-utils", version.ref = "mapsandroid" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
+retrofit_converter_gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitVersion" }
+retrofit_rxjava2 = { group = "com.squareup.retrofit2", name = "adapter-rxjava2", version.ref = "retrofitVersion" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "httpOkVersion" }
+okhttp_logging_interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "httpOkVersion" }
+okhttp_urlconnection = { group = "com.squareup.okhttp3", name = "okhttp-urlconnection", version.ref = "httpOkVersion" }
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timberVersion" }
+androidx-drawerlayout = { group = "androidx.drawerlayout", name = "drawerlayout", version = "1.2.0" }
+androidx-swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefreshlayout" }
+legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacy-support-v4" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle-livedata-ktx" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntimeKtx" }
+[plugins]
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+gmsPlugin = { id = "com.google.gms.google-services", version.ref = "gms" }
+daggerHilt = { id = 'com.google.dagger.hilt.android', version.ref = "androidDaggerHiltVersion" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinKapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "org-jetbrains-kotlin-android" }
+navigation = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigationVersion" }
+com-android-application = { id = "com.android.application", version.ref = "agp" }

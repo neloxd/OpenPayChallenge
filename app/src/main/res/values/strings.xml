@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Open Pay Challenge</string>
+    <string name="bottom_tab_one">Profile</string>
+    <string name="bottom_tab_second">Movies</string>
+    <string name="bottom_tab_third">Location</string>
+    <string name="bottom_tab_four">Storage</string>
+    <string name="bottom_tab_five">Five</string>
+</resources>

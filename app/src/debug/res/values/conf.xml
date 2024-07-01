@@ -1,0 +1,36 @@
+<resources>
+    <!--&lt;!&ndash;Visa Checkout (VCO) &ndash;&gt;-->
+    <!--<string name="vco_key" templateMergeStrategy="preserve" translatable="false">-->
+        <!--01BFT4V2L5FFB73XJKT821O4U0dT0QPA8z0kBFTWMJMANx7Zg-->
+    <!--</string>-->
+	<!--<string name="vco_env" templateMergeStrategy="preserve" translatable="false">-->
+        <!--SANDBOX-->
+    <!--</string>-->
+	<!--<string name="vco_profile" templateMergeStrategy="preserve" translatable="false">-->
+        <!--test-->
+    <!--</string>-->
+	<!--<string name="vco_merchant_id" templateMergeStrategy="preserve" translatable="false">-->
+        <!--idmexico-->
+    <!--</string>-->
+    <!--&lt;!&ndash; Cybersource (VISA) &ndash;&gt;-->
+    <!--<string name="cybersource_OrgId" templateMergeStrategy="preserve" translatable="false">-->
+        <!--1snn5n9w-->
+    <!--</string>-->
+
+    <string name="vco_key" templateMergeStrategy="preserve" translatable="false">
+        01BFT4V2L5FFB73XJKT821O4U0dT0QPA8z0kBFTWMJMANx7Zg
+    </string>
+    <string name="vco_env" templateMergeStrategy="preserve" translatable="false">
+        SANDBOX
+    </string>
+    <string name="vco_profile" templateMergeStrategy="preserve" translatable="false">
+        test
+    </string>
+    <string name="vco_merchant_id" templateMergeStrategy="preserve" translatable="false">
+        idmexico
+    </string>
+    <!-- Cybersource (VISA) -->
+    <string name="cybersource_OrgId" templateMergeStrategy="preserve" translatable="false">
+        1snn5n9w
+    </string>
+</resources>

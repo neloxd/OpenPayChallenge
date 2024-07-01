@@ -1,0 +1,9 @@
+<resources>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyA4eiSw4OdBfFKvndvy-RyH0hAa9wnNwA8
+    </string>
+    <string name="google_geocoding_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyBH-Sc43GgU9ASDv-JZDFeDfblShlJ1ej0
+    </string>
+    <!-- AIzaSyCXsgvH9OtAU-l4ozVlgdB4H-91jX5wbmw -->
+</resources>

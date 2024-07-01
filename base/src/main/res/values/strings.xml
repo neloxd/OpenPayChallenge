@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">base</string>
+
+    <string name="progress_dialog_generic_message">Cargando...</string>
+</resources>

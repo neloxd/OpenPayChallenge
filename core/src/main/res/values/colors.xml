@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <color name="green_light">#70A83B</color>
+    <color name="green_light_alpha">#5170A83B</color>
+    <color name="green_dark">#538D26</color>
+    <color name="blue">#1540A0</color>
+    <color name="blue_dark">#0E2F8D</color>
+    <color name="red">#FF6E6E</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000000</color>
+    <color name="white_pearl">#F3F4EE</color>
+    <color name="gray_light">#FFB7B7B7</color>
+    <color name="gray_primary">#222C30</color>
+    <color name="gray_primary_alpha">#51222C30</color>
+    <color name="gray_secondary">#3F4447</color>
+    <color name="gray_10">#d9d9d9</color>
+
+    <color name="gray_accent">#DFDFDF</color>
+    <color name="gray_lines">#7A757C</color>
+
+    <color name="window_background">#f4f4ef</color>
+    <color name="white_solid">#F4F4EF</color>
+    <color name="gray_solid">#2F3D43</color>
+
+    <color name="gray_basic">#8F9BB3</color>
+    <color name="gray_desactivate">#B4B8BF</color>
+    <color name="blue_link">#0095FF</color>
+    <color name="orange_warning">#FFAA00</color>
+    <color name="red_error">#B3261D</color>
+    <color name="red_error_night">#f3b8b4</color>
+    <color name="showcase_mask">#1540A0</color>
+    <color name="showcase_text_color">#FFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="gray_shape">#e2e2e2</color>
+    <color name="gray_on_shape">#b7b7b7</color>
+
+    <color name="backgroundDialog">#f4f4ef</color>
+    <color name="textDialog">#49454F</color>
+    <color name="textTitleDialog">#1C1B1F</color>
+    <color name="buttonTextDialog">#70A73B</color>
+    <color name="buttonStrokeDialog">#CFD3C8</color>
+
+    <color name="green_teal">#80ccc7</color>
+    <color name="green_solid">#018c78</color>
+
+    <color name="white_toast">#fbf8fd</color>
+    <color name="gray_toast">#313035</color>
+
+    <color name="secondary_icon">@color/blue</color>
+    <color name="colorTabText">#b4ffffff</color>
+    <color name="colorListHeader">@color/blue</color>
+
+    <color name="gray_divider">#d7d6d3</color>
+    <color name="gray_divider_dark">#49555b</color>
+    <color name="gray_">#d7d6d3</color>
+
+    <color name="last_item_color">@color/blue</color>
+    <color name="text_color_inverse">@color/green_light</color>
+
+    <color name="rappi_logo">#000</color>
+    <color name="lighter_gray">#B1B1B1</color>
+
+    <color name="colorSecondary">#1540A0</color>
+    <color name="buttonInverseBackground">#1540A0</color>
+
+    <color name="sidebar_background">#f4f4ef</color>
+    <color name="sidebar_item">#1540A0</color>
+
+    <color name="background_primary">@color/green_light</color>
+    <color name="background_login">@color/blue</color>
+    <color name="background_select_payment_">@color/blue</color>
+    <color name="colorButtonRechargePayment">@color/white</color>
+    <color name="textToastChangeEmail">#FFF</color>
+    <color name="bottom_button_bar">#538D26</color>
+
+    <!-- NEW COLORS (TOP) -->
+    <color name="primary_color">#0046AD</color>
+    <color name="secondary_color">#7AB800</color>
+    <color name="enable_color">#D2D5D9</color>
+    <color name="enable_text">#5E646E</color>
+    <color name="color_border">#8B919A</color>
+    <color name="color_error">#E72D41</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_text_muted">#5E646E</color>
+    <color name="primary_light">#F0F5FC</color>
+    <color name="neutral_color">#F7F8FA</color>
+    <color name="success_color_toast">#699E00</color>
+    <color name="error_color_toast">#D32222</color>
+    <color name="warning_color_toast">#222222</color>
+    <color name="color_gray_white">#EDEFF2</color>
+    <!-- NEW COLORS (BOTTOM) -->
+</resources>

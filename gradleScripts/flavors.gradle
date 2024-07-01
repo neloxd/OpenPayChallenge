@@ -1,0 +1,27 @@
+ext.flavorConfig = {
+
+    flavorDimensions "platform"
+
+    productFlavors {
+        google {
+            buildConfigField "String", "MS_PLATFORM", "\"GCM\""
+            dimension = "platform"
+        }
+
+        huawei {
+            buildConfigField "String", "MS_PLATFORM", "\"HMS\""
+            dimension = "platform"
+        }
+
+    }
+
+    productFlavors.all { flavor ->
+        if (namespace == packageApp) {
+            if (flavor.name == "prod") {
+                flavor.applicationId packageApp
+            } else {
+                flavor.applicationId packageApp //+ "." + flavor.name
+            }
+        }
+    }
+}

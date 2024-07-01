@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/dim_4">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_16"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/divider"
+        tools:text="NAME STORE"/>
+    
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:background="@color/color_black"
+        android:layout_marginHorizontal="@dimen/dim_8"
+        app:layout_constraintStart_toEndOf="@+id/tvName"
+        app:layout_constraintEnd_toStartOf="@+id/tvOriginalName"
+        app:layout_constraintTop_toTopOf="@+id/tvName"
+        app:layout_constraintBottom_toBottomOf="@id/tvName"/>
+
+    <TextView
+        android:id="@+id/tvOriginalName"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_14"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/divider"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/divider"
+        tools:text="CODE STORE"/>
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_14"
+        android:textStyle="normal"
+        android:layout_marginTop="@dimen/dim_4"
+        app:layout_constraintTop_toBottomOf="@+id/tvOriginalName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ivOverview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="When the body of a powerful businesswoman goes missing from the morgue, the inspector-in-charge hunts for the truth. When he questions her husband he realizes that there is much more to the case than meets the eye."/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivOverview"
+        android:layout_width="@dimen/dim_200"
+        android:layout_height="@dimen/dim_200"
+        tools:src="@mipmap/ic_launcher"
+        app:layout_constraintTop_toBottomOf="@+id/tvOriginalName"
+        app:layout_constraintStart_toEndOf="@+id/tvOverview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

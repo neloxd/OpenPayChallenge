@@ -1,0 +1,7 @@
+ext {
+    packageApp = 'com.jesusvilla.openpay'
+    targetSdk = 34
+    miniumSdk = 21
+    verCode = 1
+    verName = "1.0.0"
+}

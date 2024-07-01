@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.Button</item>
+        <item name="android:paddingTop">@dimen/space_14</item>
+        <item name="android:paddingBottom">@dimen/space_14</item>
+    </style>
+
+    <style name="Widget.App.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button.Outlined</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.Button</item>
+        <item name="android:paddingTop">@dimen/space_14</item>
+        <item name="android:paddingBottom">@dimen/space_14</item>
+        <item name="strokeWidth">@dimen/space_2</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button.Outlined" parent="ThemeOverlay.Material3.Button.TextButton">
+        <item name="colorContainer">@color/color_white</item>
+        <item name="colorOnContainer">@color/primary_color</item>
+        <item name="colorOutline">@color/primary_color</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button" parent="ThemeOverlay.Material3.Button">
+        <item name="colorContainer">@color/button_background_tint</item>
+        <item name="colorOnContainer">@color/button_text_color</item>
+    </style>
+
+    <style name="TextAppearance.App.Button" parent="">
+        <item name="android:textSize">@dimen/size_15</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Button" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dim_24</item>
+    </style>
+</resources>

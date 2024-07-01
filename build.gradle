@@ -1,0 +1,16 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    dependencies {
+        apply from: "$project.rootDir/gradleScripts/app_version.gradle"
+        apply from: "$project.rootDir/gradleScripts/flavors.gradle"
+    }
+}
+
+plugins {
+    alias(libs.plugins.com.android.application) apply false
+    alias(libs.plugins.daggerHilt) apply false
+    alias(libs.plugins.kotlinAndroid) apply false
+    alias(libs.plugins.navigation) apply false
+    alias(libs.plugins.androidLibrary) apply false
+    alias(libs.plugins.gmsPlugin) apply false
+}

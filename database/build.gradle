@@ -1,0 +1,55 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-kapt'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
+    id 'dagger.hilt.android.plugin'
+}
+
+android {
+    namespace 'com.jesusvilla.database'
+    compileSdk targetSdk
+
+    defaultConfig {
+        minSdk miniumSdk
+        targetSdkVersion targetSdk
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+        buildConfig = true
+    }
+}
+
+dependencies {
+    def room_version = "2.6.1"
+    implementation libs.androidx.room.runtime
+    implementation "androidx.room:room-ktx:$room_version"
+    kapt "androidx.room:room-ktx:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+
+    implementation libs.androidx.core.ktx
+
+    //Hilt
+    implementation libs.android.dagger.hilt
+    kapt libs.android.dagger.hilt.compiler
+    implementation libs.androidx.dagger.hilt.navigation.fragment
+
+    //rxJava
+    implementation libs.androidx.room.rxjava2
+
+}

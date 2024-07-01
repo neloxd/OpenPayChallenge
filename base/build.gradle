@@ -1,0 +1,75 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-kapt'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
+    id 'dagger.hilt.android.plugin'
+}
+
+android {
+    namespace 'com.jesusvilla.base'
+    compileSdk targetSdk
+
+    defaultConfig {
+        minSdk miniumSdk
+        targetSdkVersion targetSdk
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    with flavorConfig
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+        buildConfig = true
+    }
+}
+
+dependencies {
+    implementation project(path: ':core')
+    implementation libs.androidx.core.ktx
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.materialshowcase
+    implementation libs.androidx.constraintlayout
+    implementation libs.androidx.navigation.fragment
+    implementation libs.androidx.navigation.ui
+    implementation libs.androidx.biometric
+    // Google play
+    implementation libs.googleplaycore
+    //ViewModel
+    implementation libs.androidx.lifecycle.viewmodel.ktx
+    //Glide
+    implementation libs.glide
+    implementation libs.circle.imageview
+    //Hilt
+    implementation libs.android.dagger.hilt
+    implementation libs.legacy.support.v4
+    implementation libs.lifecycle.livedata.ktx
+    kapt libs.android.dagger.hilt.compiler
+    implementation libs.androidx.dagger.hilt.navigation.fragment
+    //Testig
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.test.ext.junit
+    androidTestImplementation libs.espresso.core
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.rxjava2)
+    implementation(libs.retrofit.converter.gson)
+
+    implementation(libs.timber)
+
+    implementation libs.epoxy
+}

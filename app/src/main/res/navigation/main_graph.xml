@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/profile_graph"
+    tools:ignore="UnusedNavigation">
+
+    <!--region Include -->
+    <include app:graph="@navigation/profile_graph"/>
+    <include app:graph="@navigation/movies_graph"/>
+    <!--endregion-->
+
+    <!--region Global Action -->
+    <action
+        android:id="@+id/action_global_profile"
+        app:destination="@id/profile_graph" />
+    <action
+        android:id="@+id/action_global_movies"
+        app:destination="@id/movies_graph" />
+    <!--endregion-->
+
+</navigation>

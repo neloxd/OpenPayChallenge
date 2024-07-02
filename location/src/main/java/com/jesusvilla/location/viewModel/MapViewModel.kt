@@ -1,6 +1,5 @@
 package com.jesusvilla.location.viewModel
 
-import android.location.Location
 import androidx.annotation.CheckResult
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -10,9 +9,7 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.ValueEventListener
-import com.jesusvilla.base.models.BaseUI
 import com.jesusvilla.base.viewModel.BaseViewModel
-import com.jesusvilla.database.constants.dataBaseConfig
 import com.jesusvilla.location.data.model.MessageLocation
 import com.jesusvilla.location.di.FirebaseDatabaseInstanceQualifier
 import com.jesusvilla.location.utils.buildMarker

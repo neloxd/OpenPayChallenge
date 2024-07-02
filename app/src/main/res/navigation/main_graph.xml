@@ -9,6 +9,8 @@
     <!--region Include -->
     <include app:graph="@navigation/profile_graph"/>
     <include app:graph="@navigation/movies_graph"/>
+    <include app:graph="@navigation/location_graph"/>
+    <include app:graph="@navigation/media_graph"/>
     <!--endregion-->
 
     <!--region Global Action -->
@@ -18,6 +20,12 @@
     <action
         android:id="@+id/action_global_movies"
         app:destination="@id/movies_graph" />
+    <action
+        android:id="@+id/action_global_location"
+        app:destination="@id/location_graph" />
+    <action
+        android:id="@+id/action_global_media"
+        app:destination="@id/media_graph" />
     <!--endregion-->
 
 </navigation>

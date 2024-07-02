@@ -82,6 +82,7 @@ dependencies {
     implementation project(path: ':profile')
     implementation project(path: ':movies')
     implementation project(path: ':location')
+    implementation project(path: ':media')
     implementation libs.androidx.core.ktx
     implementation libs.appcompat
     implementation libs.material

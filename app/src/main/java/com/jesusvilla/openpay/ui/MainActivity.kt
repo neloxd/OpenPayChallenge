@@ -100,6 +100,10 @@ class MainActivity : BaseActivity<ActivityMainBinding>(), NavigationHandler {
                 navigate(com.jesusvilla.location.R.navigation.location_graph)
                 true
             }
+            R.id.bottomNavigationFourId -> {
+                navigate(com.jesusvilla.media.R.navigation.media_graph)
+                true
+            }
             else -> false
         }
     }
